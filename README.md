@@ -1,14 +1,21 @@
-# Philosophical_Red-Teaming
-An evaluation and red-teaming framework using classical epistemic theory to stress-test frontier LLM alignment. 
-**Current protocols:**
-- **[Pithos Protocol](Pithos-Protocol/)** — Diogenes + Cave framing (exposes semantic sparsity loopholes in RLHF/DPO)
-- **[Crito Probe](Crito-Probe/)** — Socrates/Crito/Apology recursive pressure test (sycophancy, metaphor capture, institutional sanitization)
+# Philosophical Red-Teaming for Model Policy
 
-Both protocols have been beta-tested live on Google AI with strong results (see screenshots below).
+A portfolio of humanities-based model evaluation methods for converting ambiguous model behavior into policy-relevant artifacts: behavioral specifications, failure-mode taxonomies, grading rubrics, and eval prompts.
 
-## Empirical Results (Google AI)
-- [Pithos Protocol full run](Pithos-Protocol/google-ai-runs/) — called it "brilliant" and "industry-grade"
-- [Crito Probe beta test](Crito-Probe/google-ai-beta-test/) — worked in just 4 prompts
+## Protocols
 
-## Assets
-- [War-room library photos + annotated Plato pages](assets/)
+1. Pithos Protocol  
+   Tests model behavior around truthfulness, uncertainty, authority framing, self-description, and philosophical abstraction.
+
+2. Crito Probe  
+   Tests sycophancy, metaphor capture, institutional sanitization, recursive premise absorption, and refusal/clarification boundaries.
+
+## Relevance to Model Policy
+
+These protocols are designed to support:
+- behavioral specification design
+- eval case generation
+- rubric construction
+- human-data labeling guidance
+- adjudication of ambiguous outputs
+- analysis of over-refusal / under-refusal / truthfulness drift
