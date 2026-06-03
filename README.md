@@ -1,3 +1,7 @@
+# Philosophical Red-Teaming for Model Policy
+
+A portfolio of humanities-based model evaluation methods for converting ambiguous model behavior into policy-relevant artifacts: behavioral specifications, failure-mode taxonomies, grading rubrics, and eval prompts.
+
 ## Protocols
 
 1. **Pithos Protocol**  
@@ -14,3 +18,14 @@
    **Complementary Use**  
    - Pithos Protocol: Best for repeatable, structured red-teaming of truthfulness, authority, and philosophical abstraction.  
    - Camus Method: Best for testing depth maintenance, narrative repair tendencies, and model behavior when absurdity is granted primacy.
+
+## Relevance to Model Policy
+
+These protocols are designed to support:
+- behavioral specification design
+- eval case generation
+- rubric construction
+- human-data labeling guidance
+- adjudication of ambiguous outputs
+- analysis of over-refusal / under-refusal / truthfulness drift
+- probing model behavior under conditions where absurdity is granted as foundational (Camus Method)
